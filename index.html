@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reg.css" />
+    <link rel="icon" href="logo.png" type="image/png" />
+    <title>User Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-items">
+        <div>
+          <img src="logo.png" alt="company logo" width="70vm" height="70vm" />
+        </div>
+        <div>
+          <h2 style="text-align: center">REGISTER HERE</h2>
+          <p style="text-align: center">
+            All details to be filled are compulsory<mark>*</mark>
+          </p>
+        </div>
+      </div>
+      <h4>User Details</h4>
+      <label>First Name</label>
+      <input type="text" placeholder="Enter your name" />
+      <br />
+      <br />
+
+      <label><b>Contact</b></label>
+      <input type="number" placeholder="Enter your number" />
+      <br />
+      <br />
+
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter your email ID" />
+      <br />
+      <br />
+      <hr />
+
+      <h4>Other Details</h4>
+      <label><b>DOB</b></label>
+      <input type="date" />
+      <br />
+      <br />
+
+      <label><b>Company</b></label>
+      <select name="company" id="company">
+        <option value=""></option>
+        <option value="">Raw Engineering</option>
+        <option value="">Contentstack</option>
+        <option value="">Built IO</option>
+      </select>
+      <br />
+      <br />
+
+      <label class=""><b>Employment Type</b></label>
+      <select name="employmentType" id="employmentType">
+        <option value=""></option>
+        <option value="">Intern</option>
+        <option value="">Permanent</option>
+      </select>
+      <br />
+      <hr />
+
+      <h4>Set Password</h4>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter your password here" />
+      <br />
+      <br />
+
+      <label><b>Confirm password</b></label>
+      <input type="password" placeholder="Confirm password" />
+      <br />
+      <br />
+      <div style="text-align: center">
+        <div>
+          <a
+            href="/home/trainee/my_cv_updated/Task1/index.html"
+            class="button"
+            download
+            >Keep copy</a
+          >
+        </div>
+        <br />
+        <div>
+          <button type="submit" class="button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+h2 {
+    color: #2b38e9;
+}
+.flex-items{
+    display:flex;
+    justify-content: center;;
+}
+@media (max-width: 731px){
+    .flex-items{
+        flex-direction:column;
+    }
+}
+label {
+    padding:1px;
+}
+input,select {
+    width: 100%;
+    padding: 10px;
+    margin:  0;
+    box-sizing: border-box;
+    border: 2px solid rgb(187, 214, 241);
+    background:none;
+    transition: 0.5s;
+    outline: none;
+  }
+  input:focus {
+    border: 3px solid rgb(74, 106, 248);
+  }
+  .container {
+      width:60%;
+      height:cover;
+      padding:10px;
+      /* align-items: center; */
+      margin:auto;
+     
+  }
+  h4 {
+      text-align:center;
+  }
+  hr{
+      width:70px;
+      height:1px;
+      color: blue;
+  }
+  .button {
+    
+    background-color: #2b38e9;
+    border: none;
+    color: rgb(250, 246, 246);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    
+  }
